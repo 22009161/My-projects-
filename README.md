@@ -1,20 +1,23 @@
-Customer_Churn_Prediction/ │ ├── data/                 # dataset files ├── notebooks/            # analysis notebooks ├── images/               # visualizations/screenshots ├── README.md             # project description └── requirements.txt      # dependencies# Customer Churn Prediction
+# Customer Churn Prediction (No CSV Required)
 
-**Objective:** Predict customer churn for a telecom company using Python and machine learning.
+**Objective:** Predict customer churn for a telecom company using a **synthetic dataset generated automatically in Python**. No external dataset is needed.
 
 ## Project Overview
-This project analyzes customer data to predict whether a customer will leave a telecom company (churn) or stay. It demonstrates **data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning**.
+This project demonstrates a **complete data science workflow**:
+- Generating a synthetic dataset
+- Data preprocessing and encoding categorical variables
+- Exploratory Data Analysis (EDA) and visualization
+- Building a **Random Forest classifier** to predict customer churn
+- Evaluating model performance
+- Identifying the **top 10 most important features** affecting churn
 
-## Tools & Skills
-- **Languages & Libraries:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- **Techniques:** Data Cleaning, EDA, Classification, Random Forest
-- 
-## Key Insights
-- Customers with longer tenure are less likely to churn
-- Contract type and monthly charges are significant predictors
-- Random Forest classifier achieved **XX% accuracy** on the test set
+## Skills & Tools
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
+- **Techniques:** Data Cleaning, Feature Engineering, Exploratory Data Analysis, Classification, Random Forest  
 
-## Usage
-1. Clone the repository:
+## How to Run
+1. Clone or download this repository.  
+2. Install dependencies:
 ```bash
-git clone https://github.com/22009161 see/portfolio.git
+pip install -r requirements.txt
