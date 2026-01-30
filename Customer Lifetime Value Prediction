@@ -1,0 +1,10 @@
+Customer Lifetime Value Prediction estimates the total revenue a customer is expected to generate during their relationship with a company.
+Goals for your project:
+Generate or use a synthetic customer transaction dataset (no CSV needed if you want it immediately runnable).
+Perform data preprocessing and feature engineering.
+Train a regression model (like Linear Regression or Random Forest Regressor) to predict CLV.
+Evaluate the model using RMSE, R² score, and visualizations.
+Visualize top factors affecting CLV.
+2️⃣ Skills & Tools
+Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+Techniques: Data cleaning, feature engineering, regression, model evaluation, visualization
